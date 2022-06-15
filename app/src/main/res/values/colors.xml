@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="t_teal_200">#8003DAC5</color>
+    <color name="t_teal_700">#80018786</color>
+    <color name="t_white">#BFFFFFFF</color>
+    <color name="rotom_screen">#BF7BD5F7</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF1414</color>
+    <color name="red_2">#800000</color>
+    <color name="red_stroke">#FF4B4B</color>
+    <color name="blue">#1B67FF</color>
+    <color name="blue_2">#1B0E8E</color>
+    <color name="blue_stroke">#47CBFF</color>
+    <color name="hp">#FF00FF00</color>
+    <color name="attack">#FF2600</color>
+    <color name="defense">#1F84FF</color>
+    <color name="special_attack">#FF6F00</color>
+    <color name="special_defense">#6A00FF</color>
+    <color name="speed">#FFD500</color>
+    <color name="Ability">#803064FF</color>
+    <color name="Ability_dark">#A60320AF</color>
+    <color name="hidden_Ability">#80FF001D</color>
+    <color name="hidden_Ability_dark">#A6A10000</color>
+    <color name="charge_pk_info">#B30025A8</color>
+    <color name="regions">#A34170FF</color>
+    <color name="pokedex">#EE00FFCC</color>
+</resources>

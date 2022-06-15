@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PokedexCM</string>
+    <string name="nombre_pokemon">Name:</string>
+    <string name="weight_pk">Weight:</string>
+    <string name="height_pk">Height:</string>
+    <string name="base_pk">Base experience:</string>
+    <string name="stat_pk">Statistics:</string>
+    <string name="ability_pk">Abilities:</string>
+    <string name="tipos_pk">Types:</string>
+    <string name="Shiny_btn">Shiny</string>
+    <string name="Normal_btn">Base</string>
+    <string name="habilidad">Name Ability</string>
+    <string name="Tipo">Type %1$d: %2$s</string>
+    <string name="bug">Bug</string>
+    <string name="dark">Dark</string>
+    <string name="dragon">Dragon</string>
+    <string name="electric">Electric</string>
+    <string name="fairy">Fairy</string>
+    <string name="fighting">Fighting</string>
+    <string name="fire">Fire</string>
+    <string name="flying">Flying</string>
+    <string name="ghost">Ghost</string>
+    <string name="grass">Grass</string>
+    <string name="ground">Ground</string>
+    <string name="ice">Ice</string>
+    <string name="normal">Normal</string>
+    <string name="poison">Poison</string>
+    <string name="psychic">Psychic</string>
+    <string name="rock">Rock</string>
+    <string name="steel">Steel</string>
+    <string name="water">Water</string>
+    <string name="type01">Type 01</string>
+    <string name="type02">Type 02</string>
+    <string name="fail_connect">Failed Connection</string>
+    <string name="attack">"Attack: "</string>
+    <string name="defense">"Defense: "</string>
+    <string name="sp_attack">Special Attack:</string>
+    <string name="sp_defense">Special Defense:</string>
+    <string name="speed">Speed:</string>
+    <string name="sel_region">Select the Region</string>
+    <string name="pokedex_name">%1$s %2$s</string>
+</resources>
