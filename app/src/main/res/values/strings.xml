@@ -51,4 +51,5 @@
     <string name="icon_region" translatable="false">Icon</string>
     <string name="pokemon_sprite" translatable="false">Sprite</string>
     <string name="pokedex_name">%1$s %2$s</string>
+    <string name="variante">Variante</string>
 </resources>

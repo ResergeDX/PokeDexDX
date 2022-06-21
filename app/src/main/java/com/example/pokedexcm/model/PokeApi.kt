@@ -19,6 +19,11 @@ interface PokeApi {
         @Path("id")id:String?
     ): Call<PokemonInfoApi>
 
+    @GET("api/v2/pokemon-species/{id}")
+    fun getPokeVariety(
+        @Path("id")id:String?
+    ): Call<PokeVariety>
+
     @GET("api/v2/pokemon/{id}")
     fun getPokeInfo(
         @Path("id")id:String?

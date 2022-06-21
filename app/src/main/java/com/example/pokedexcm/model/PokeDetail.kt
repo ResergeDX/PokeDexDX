@@ -1,11 +1,35 @@
 package com.example.pokedexcm.model
 
 import com.google.gson.annotations.SerializedName
+//Clase para obtención de variantes pokemon
+class PokeVariety{
+    @SerializedName("id")
+    var num_pk_specie:Int?=null
+
+    @SerializedName("varieties")
+    var list_variantes:ArrayList<Variante>?=null
+}
+
+class Variante{
+    @SerializedName("is_default")
+    var default_state:Boolean?=null
+
+    @SerializedName("pokemon")
+    var pokemon_info:Pokemon_INFO?=null
+}
+
+class Pokemon_INFO{
+    @SerializedName("name")
+    var name_pk_info:String?=null
+    @SerializedName("url")
+    var url_pk_info:String?=null
+}
 
 class PokeDetail {
     //Numero de la Pokedex
     @SerializedName("id")
     var num_pokedex:Int?=null
+
     //Nombre
     @SerializedName("name")
     var Nombre: String? = null

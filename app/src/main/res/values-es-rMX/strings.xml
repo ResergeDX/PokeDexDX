@@ -40,4 +40,5 @@
     <string name="speed">Velocidad:</string>
     <string name="sel_region">Seleccione la Region</string>
     <string name="pokedex_name">%2$s %1$s</string>
+    <string name="variante">Variante</string>
 </resources>

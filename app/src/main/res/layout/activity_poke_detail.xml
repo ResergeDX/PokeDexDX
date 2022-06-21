@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_rotom"
+    android:onClick="changeVariante"
     tools:context=".views.ui.activities.PokemonDetail">
 
 
@@ -26,9 +27,9 @@
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
@@ -83,6 +84,21 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/guideline12"
+                app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+            <Button
+                android:id="@+id/btVariant"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_variant_sel"
+                android:fontFamily="@font/checkbook"
+                android:onClick="changeVariante"
+                android:text="@string/variante"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline13"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
             <androidx.constraintlayout.widget.Guideline
@@ -307,19 +323,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/etiquetas_info"
-            android:paddingVertical="25dp"
-            android:paddingHorizontal="10dp">
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="25dp">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="110dp"
                 android:layout_height="45dp"
+                android:layout_marginHorizontal="5dp"
                 android:fontFamily="@font/checkbook"
                 android:text="@string/ability_pk"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:layout_marginHorizontal="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/guideline14"
                 app:layout_constraintStart_toStartOf="parent"
